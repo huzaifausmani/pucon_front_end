@@ -1,0 +1,39 @@
+.otr-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--background-color);
+}
+
+.inr-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50%;
+    border-radius: .3rem;
+    transition: .2s;
+}
+
+.home-txt {
+    color: var(--theme-color);
+    font-weight: 600;
+    font-size: 50px;
+    transition: .2s;
+}
+
+.home-txt:hover {
+    color: var(--theme-color-secondary);
+}
+
+.upr-hr-home {
+    height: 15vh;
+    border: 1px solid var(--forground-color);
+}
+
+.lwr-hr-home {
+    height: 15vh;
+    border: 1px solid var(--assist-color);
+}
